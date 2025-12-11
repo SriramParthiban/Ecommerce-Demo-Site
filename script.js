@@ -6,9 +6,7 @@ const products = [
     { id: 4, name: "Mechanical Keyboard", price: 129.99, emoji: "⌨️", description: "RGB backlit gaming keyboard" },
     { id: 5, name: "Wireless Mouse", price: 39.99, emoji: "🖱️", description: "Precision wireless mouse" },
     { id: 6, name: "USB-C Hub", price: 59.99, emoji: "🔌", description: "7-in-1 multiport adapter" },
-    { id: 7, name: "Phone Case", price: 24.99, emoji: "📱", description: "Protective silicone phone case" },
-    { id: 7, name: "Phone Case", price: 24.99, emoji: "📱", description: "Protective silicone phone case" },
-    { id: 7, name: "Phone Case", price: 24.99, emoji: "📱", description: "Protective silicone phone case" },
+    { id: 7, name: "Phone Case", price: 24.99, emoji: "📱", description: "Protective silicone phone cases" },
     { id: 8, name: "Portable Charger", price: 34.99, emoji: "🔋", description: "20000mAh power bank" }
 ];
 
@@ -149,6 +147,7 @@ function checkout() {
 renderProducts();
 
 updateCartCount();
+
 
 
 
