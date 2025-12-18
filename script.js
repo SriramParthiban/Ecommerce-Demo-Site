@@ -150,6 +150,15 @@ updateCartCount();
 
 
 
+function logCartEvent(event, product) {
+    console.log({
+        event,
+        product: product.name,
+        cartSize: cart.length,
+        time: new Date().toISOString()
+    });
+}
+
 
 
 
