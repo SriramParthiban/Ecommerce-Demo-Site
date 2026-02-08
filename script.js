@@ -1,6 +1,6 @@
 // Product data
 const products = [
-    { id: 1, name: "Wireless Headphones", price: 79.99, emoji: "🎧", description: "Premium sound quality with noise cancellatio" },
+    { id: 1, name: "Wireless Headphones", price: 79.99, emoji: "🎧", description: "Premium sound quality with noise cancellation" },
     { id: 2, name: "Smart Watch", price: 199.99, emoji: "⌚", description: "Track your fitness and stay connected" },
     { id: 3, name: "Laptop Stand", price: 49.99, emoji: "💻", description: "Ergonomic aluminum laptop stand" },
     { id: 4, name: "Mechanical Keyboard", price: 129.99, emoji: "⌨️", description: "RGB backlit gaming keyboard" },
@@ -158,6 +158,7 @@ function logCartEvent(event, product) {
         time: new Date().toISOString()
     });
 }
+
 
 
 
